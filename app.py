@@ -40,7 +40,7 @@ def getTweets(keyword , count , city):
     latitude = ""
     longitude = ""
     distance = ""
-    with open('city.json', 'r') as file:
+    with open('country.json', 'r') as file:
         city_data = [json.loads(line) for line in file]
         for data in city_data:
             if city == data['city']:
