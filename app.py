@@ -7,10 +7,10 @@ from collections import Counter
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem import PorterStemmer
 
-consumer_key = 'cWwaOeIWLg6rpFAuSZqBkunKb'
-consumer_secret = 'Vwl97myDiV71L0F4yL4X5zHyV0Qdg7N2WV2UtPh0DGyCd90oKS'
-access_token = '1518593928-36tTKvBP2v9TxcXLBB3LlczT475cnYvOcTCYxPG'
-access_token_secret = 'uBQNmqPToLnhyabdRfr5OJSbM1Ysnqygf8zwt5V6cFkK2'
+consumer_key = '****************'
+consumer_secret = '****************'
+access_token = '****************'
+access_token_secret = '****************'
 auth = OAuthHandler(consumer_key , consumer_secret)
 auth.set_access_token(access_token , access_token_secret)
 api = tweepy.API(auth)
